@@ -1,0 +1,15 @@
+services:
+  jekyll:
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./workspace:/srv/jekyll
+      - jekyll_cache:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+    command: sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload"
+
+volumes:
+  jekyll_cache:
+

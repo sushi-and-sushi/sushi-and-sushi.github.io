@@ -1,0 +1,51 @@
+# Jekyll設定ファイル
+
+# サイト情報
+title: "sushi-and-sushi.github.io"
+description: "blog"
+url: "https://sushi-and-sushi.github.io"
+baseurl: ""
+
+# 作者情報
+author:
+  name: "sushi-and-sushi"
+
+# 言語設定
+lang: ja
+locale: ja_JP
+
+# プラグイン
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 除外ファイル
+exclude:
+  # 依存関係管理ファイル
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  # Git関連
+  - .git
+  - .gitignore
+  # ドキュメント（サイトに含めたい場合は除外しない）
+  - README.md
+
+# マークダウン設定
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# テーマ（カスタムテーマを使用する場合はここで指定）
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dirt"
+
+# その他の設定
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Tokyo
+
+# ソーシャルリンク（必要に応じて設定）
+github_username: sushi-and-sushi

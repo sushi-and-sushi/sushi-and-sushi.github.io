@@ -1,0 +1,30 @@
+# Jekyll
+workspace/_site/
+workspace/.sass-cache/
+workspace/.jekyll-cache/
+workspace/.jekyll-metadata
+workspace/.bundle/
+workspace/vendor/
+
+# Gemfile.lock（GitHub Pagesでは自動生成されるため）
+workspace/Gemfile.lock
+
+# 環境変数
+.env
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
+
+# ローカルドキュメント
+local/
