@@ -2,13 +2,14 @@
 
 # サイト情報
 title: "sushi-and-sushi.github.io"
-description: "blog"
+description: "sushi-and-sushi's blog"
 url: "https://sushi-and-sushi.github.io"
 baseurl: ""
 
 # 作者情報
 author:
   name: "sushi-and-sushi"
+  location : "Osaka, Japan"
 
 # 言語設定
 lang: ja
