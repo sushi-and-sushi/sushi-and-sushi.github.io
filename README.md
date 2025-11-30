@@ -4,4 +4,4 @@ Jekyllを使用したポートフォリオブログサイトです
 
 ## License
 
-Licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License][license].
+Licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](/license.txt).
