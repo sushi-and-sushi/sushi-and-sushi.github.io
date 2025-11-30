@@ -1,4 +1,4 @@
-# Kitada's Portfolio Blog
+# sushi-and-sushi Blog
 
 Jekyllを使用したポートフォリオブログサイトです
 
